@@ -1,0 +1,81 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+    width: 360px !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+    text-align: center !important;
+    font-size: 20px;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.hide {
+    display: none !important
+}
+
+#winner {
+    font-size: 18px;
+}
+
+#reset-button {
+    padding: 12px !important;
+    border-radius: 8px !important;
+    background: #1560BD;
+    border: 0px solid white !important;
+    color: white !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    width: 90%;
+}
+
+.score-card {
+    display: flex !important;
+    flex-wrap: wrap;
+    border: 1px solid #1560BD;
+    justify-content: space-around;
+    border-radius: 6px;
+}
+
+.score-value {
+    height: 20px !important;
+    width: 30px !important;
+    /* background: red !important; */
+    padding: 8px;
+}
+.background-div {
+    background-color: green !important;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background: #1560BD;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    border-radius: 14px;
+}
